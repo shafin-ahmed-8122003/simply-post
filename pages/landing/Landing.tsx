@@ -1,6 +1,7 @@
 import LoginButton from "@/components/buttons/LoginButton";
 import Logo from "@/components/logo/Logo";
 import About from "./sections/About";
+import Contact from "./sections/Contact";
 import Hero from "./sections/Hero";
 import Introduction from "./sections/Introduction";
 import Sample from "./sections/Sample";
@@ -17,6 +18,7 @@ const Landing = () => {
                 <Introduction />
                 <About />
                 <Sample />
+                <Contact />
             </main>
         </>
     );
