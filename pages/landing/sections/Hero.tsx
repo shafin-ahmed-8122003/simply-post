@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <section className="snap-start h-screen flex flex-col justify-center items-center p-8 gap-4">
+        <section className="snap-start min-h-screen flex flex-col justify-center items-center p-8 gap-4">
             <h1 className="text-center text-3xl font-bold">
                 Unleash Your <span className="text-primary">Voice</span> <br />
                 <span className="text-primary">Share</span> Your Story

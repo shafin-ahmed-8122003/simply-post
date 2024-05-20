@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section className="snap-start h-screen flex flex-col justify-center items-center p-4">
+        <section className="snap-start min-h-screen flex flex-col justify-center items-center p-4">
             <div className="p-4">
                 <h2 className="text-xl font-bold my-2">About SimplyPost</h2>
                 <p>

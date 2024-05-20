@@ -4,7 +4,7 @@ import TextArea from "@/components/input/TextArea";
 
 const Contact = () => {
     return (
-        <section className="snap-start h-screen flex items-center justify-center p-4">
+        <section className="snap-start min-h-screen flex items-center justify-center p-4">
             <form className="flex flex-col w-full p-4" action="/" method="post">
                 <h1 className="text-2xl font-bold my-4">Contact us</h1>
                 <div className="px-2">

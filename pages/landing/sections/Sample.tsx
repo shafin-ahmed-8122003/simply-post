@@ -3,7 +3,7 @@ import ReactionBadge from "@/components/reaction_badge/ReactionBadge";
 
 const Sample = () => {
     return (
-        <section className="snap-start h-screen flex items-center justify-center p-8">
+        <section className="snap-start min-h-screen flex items-center justify-center p-8">
             <div className="card shadow-xl p-4 border-2 border-primary flex flex-col items-center">
                 <h1 className="card-title">Embracing Minimalism in Everyday Life</h1>
                 <div className="h-px my-2 rounded-full bg-base-content w-3/4"></div>
