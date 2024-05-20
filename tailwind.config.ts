@@ -9,6 +9,9 @@ const config: Config = {
     ],
     theme: {},
     plugins: [daisyui],
+    future: {
+        hoverOnlyWhenSupported: true,
+    },
     daisyui: {
         themes: [
             {
