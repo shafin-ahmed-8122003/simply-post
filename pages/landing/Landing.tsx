@@ -3,6 +3,7 @@ import Logo from "@/components/logo/Logo";
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 import Introduction from "./sections/Introduction";
+import Sample from "./sections/Sample";
 
 const Landing = () => {
     return (
@@ -15,6 +16,7 @@ const Landing = () => {
                 <Hero />
                 <Introduction />
                 <About />
+                <Sample />
             </main>
         </>
     );
