@@ -16,7 +16,7 @@ const Contact = () => {
                     <Input placeholder="Your name" />
                     <Input placeholder="Your email or phone number" />
                     <TextArea placeholder="Your kind words" />
-                    <Button children="Send us" />
+                    <Button>Send Us</Button>
                 </section>
             </form>
         </section>
