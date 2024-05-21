@@ -23,7 +23,7 @@ const Hero = () => {
                 </div>
             </section>
             <section className="flex-center max-lg:items-start">
-                <div className="w-full h-full lg:max-w-[500px] max-lg:max-h-[300px] relative">
+                <div className="w-full h-full lg:max-w-[400px] max-lg:max-h-[300px] relative">
                     <Image src={heroImage} alt="Hero Image" fill />
                 </div>
             </section>
