@@ -5,7 +5,7 @@ const ChatBubble = ({ content, side }: { content: string; side: "Left" | "Right"
         case "Left":
             element = (
                 <div className="chat chat-start">
-                    <div className="chat-bubble w-3/4">{content}</div>
+                    <div className="chat-bubble bg-base-content w-3/4">{content}</div>
                 </div>
             );
             break;

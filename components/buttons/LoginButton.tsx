@@ -2,7 +2,10 @@ import ButtonOutline from "./ButtonOutline";
 
 const LoginButton = () => {
     return (
-        <ButtonOutline className="w-10 h-10 p-2 min-h-0 fill-primary hover:fill-primary-content bg-base-100">
+        <ButtonOutline
+            className="w-10 h-10 p-2 min-h-0 fill-primary hover:fill-primary-content bg-base-100"
+            navigateTo="/signin"
+        >
             <svg viewBox="0 0 15 15">
                 <path
                     fill-rule="evenodd"
