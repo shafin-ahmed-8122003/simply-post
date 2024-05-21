@@ -5,7 +5,7 @@ import TextArea from "@/components/input/TextArea";
 const Contact = () => {
     return (
         <section className="snap-start min-h-screen flex items-center justify-center p-4">
-            <form className="flex flex-col w-full p-4" action="/" method="post">
+            <form className="flex flex-col max-w-[500px] w-full p-4" action="/" method="post">
                 <h1 className="text-2xl font-bold my-4">Contact us</h1>
                 <div className="px-2">
                     <p className="text-sm">Email: shafin.ahmed.8122003@gmail.com</p>
@@ -16,7 +16,7 @@ const Contact = () => {
                     <Input placeholder="Your name" />
                     <Input placeholder="Your email or phone number" />
                     <TextArea placeholder="Your kind words" />
-                    <Button title="Send us" />
+                    <Button children="Send us" />
                 </section>
             </form>
         </section>
