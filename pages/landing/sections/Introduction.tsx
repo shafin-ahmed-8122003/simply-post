@@ -1,6 +1,6 @@
 const Introduction = () => {
     return (
-        <section className="snap-start min-h-screen grid place-items-center p-8">
+        <section id="introduction" className="snap-start min-h-screen grid place-items-center p-8">
             <div className="card max-w-[500px] bg-primary text-primary-content shadow-lg p-4 py-8 gap-4">
                 <h1 className="card-title text-xl">Welcome to simplyPost</h1>
                 <p>

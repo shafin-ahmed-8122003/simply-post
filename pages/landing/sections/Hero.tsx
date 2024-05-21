@@ -17,8 +17,12 @@ const Hero = () => {
                         ultimate platform for bloggers who want to make an impact.
                     </p>
                     <div className="flex items-center justify-between w-full gap-4">
-                        <Button className="flex-1">Get Started</Button>
-                        <ButtonOutline className="flex-1">Learn More</ButtonOutline>
+                        <Button navigateTo="/signup" className="flex-1">
+                            Get Started
+                        </Button>
+                        <ButtonOutline navigateTo="#introduction" className="flex-1">
+                            Learn More
+                        </ButtonOutline>
                     </div>
                 </div>
             </section>
