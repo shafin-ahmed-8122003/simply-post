@@ -5,3 +5,19 @@
 * {
     user-select: none;
 }
+
+@layer components {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #e7e5e4;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f43f5e;
+    border-radius: 4px;
+}

@@ -11,8 +11,8 @@ import Sample from "./sections/Sample";
 const Landing = () => {
     return (
         <>
-            <header className="absolute top-0 left-0 w-full p-4 flex justify-between items-center bg-base-100 z-10">
-                <Logo />
+            <header className="absolute top-0 left-0 w-full p-4 flex justify-between items-center z-10">
+                <Logo className="w-[150px] bg-base-100 p-1 rounded-box" />
                 <LoginButton />
             </header>
             <main className="snap-y snap-mandatory h-screen overflow-auto">
