@@ -1,7 +1,6 @@
 "use client";
 
 import Post from "@/components/post/Post";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Header from "./components/Header";
 
@@ -43,13 +42,11 @@ const Dashboard = () => {
             author: "Shafin",
         },
     ]);
-    const [menuVisibility, setMenuVisibility] = useState(false);
-    const router = useRouter();
 
     return (
         <>
             <Header allPosts={posts} setAllPosts={setPosts} />
-            <main className="min-h-screen pt-24 p-8">
+            <main className="min-h-screen pt-28 p-8">
                 <section className="grid justify-items-center xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     {posts.map((post) => (
                         <Post
