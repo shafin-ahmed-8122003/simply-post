@@ -6,14 +6,19 @@ const ButtonOutline = ({
     children,
     className,
     navigateTo,
+    onClick,
 }: {
     children: React.ReactNode;
     className?: string;
     navigateTo?: string;
+    onClick?: () => void;
 }) => {
     const router = useRouter();
 
     const clickHandler = () => {
+        if (onClick) {
+            onClick();
+        }
         if (navigateTo) {
             router.push(navigateTo);
         }
